@@ -11,7 +11,7 @@ const Navbar = () => {
 
     const renderedSocialLinks = socialLinks.map((social, idx) => (
         <li key={social.id}>
-            <a href={social.href} target="_blank" className="nav-icon"><i className={social.icon}></i></a>
+            <a href={social.href} rel="noreferrer" target="_blank" className="nav-icon"><i className={social.icon}></i></a>
         </li>
     ))
 
