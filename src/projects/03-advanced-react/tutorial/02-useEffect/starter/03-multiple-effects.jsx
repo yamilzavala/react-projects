@@ -1,0 +1,33 @@
+import { useState, useEffect } from 'react';
+
+const MultipleEffects = () => {
+  const [value, setValue] = useState(0);
+  const [secondValue, setSecondValue] = useState(0);
+
+  //The dependencies array determine when the effect will be cast again.
+  useEffect(() => {
+    console.log('hello from first useEffect');
+  }, [value]);
+
+  useEffect(() => {
+    console.log('hello from second useEffect');
+  }, [secondValue]);
+
+  useEffect(() => {
+    console.log('hello from both useEffect');
+  }, [value, secondValue]);
+
+  return (
+    <div>
+      <h1>value : {value}</h1>
+      <button className='btn' onClick={() => setValue(value + 1)}>
+        value
+      </button>
+      <h1>second value : {secondValue}</h1>
+      <button className='btn' onClick={() => setSecondValue(secondValue + 1)}>
+        second value
+      </button>
+    </div>
+  );
+};
+export default MultipleEffects;

@@ -5,9 +5,12 @@ import AppBirthDay from "./projects/04-fundamental-projects/01-birthday-buddy/st
 function App() {
   return (
     <div>
+      {/* theory */}
+      <AppAdvanced/>
+
+      {/* projects */}
       {/* <AppBackroads/> */}
-      {/* <AppAdvanced/> */}
-      <AppBirthDay/>
+      {/* <AppBirthDay/> */}
     </div>
   );
 }
