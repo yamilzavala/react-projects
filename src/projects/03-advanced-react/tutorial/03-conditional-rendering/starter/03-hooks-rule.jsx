@@ -4,7 +4,7 @@ const Example = () => {
   const [condition, setCondition] = useState(true);
   if (condition) {
     // won't work
-    const [state, setState] = useState(false);
+    //const [state, setState] = useState(false);
   }
 
   // if (condition) {
