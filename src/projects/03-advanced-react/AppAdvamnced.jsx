@@ -27,7 +27,7 @@ function AppAdvanced() {
       {/* <UseEffectBasics/> */}
       {/* <MultipleEffects/> */}
       {/* <FetchData/> */}
-      <CleanupFunction/>
+      {/* <CleanupFunction/> */}
 
       {/* Multiple returns */}
       {/* <MultipleReturnsBasics/> */}
