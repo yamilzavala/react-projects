@@ -3,6 +3,9 @@ import AppAdvanced from "./projects/03-advanced-react/AppAdvamnced";
 import AppBirthDay from "./projects/04-fundamental-projects/01-birthday-buddy/starter/AppBirthDay";
 import AppTours from "./projects/04-fundamental-projects/02-tours/starter/AppTours";
 import AppReviews from "./projects/04-fundamental-projects/03-reviews/starter/AppReviews";
+import AppAccordion from "./projects/04-fundamental-projects/04-accordion/starter/AppAccordion";
+import AppMenu from "./projects/04-fundamental-projects/05-menu/starter/AppMenu";
+import AppTabs from "./projects/04-fundamental-projects/06-tabs/starter/AppTabs";
 
 function App() {
   return (
@@ -14,7 +17,10 @@ function App() {
       {/* <AppBackroads/> */}
       {/* <AppBirthDay/> */}
       {/* <AppTours/> */}
-      <AppReviews/>
+      {/* <AppReviews/> */}
+      {/* <AppAccordion/> */}
+      {/* <AppMenu/> */}
+      <AppTabs/>
     </div>
   );
 }
