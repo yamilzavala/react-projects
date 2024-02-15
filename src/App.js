@@ -6,6 +6,7 @@ import AppReviews from "./projects/04-fundamental-projects/03-reviews/starter/Ap
 import AppAccordion from "./projects/04-fundamental-projects/04-accordion/starter/AppAccordion";
 import AppMenu from "./projects/04-fundamental-projects/05-menu/starter/AppMenu";
 import AppTabs from "./projects/04-fundamental-projects/06-tabs/starter/AppTabs";
+import AppSlider from "./projects/04-fundamental-projects/07-slider/starter/AppSlider";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <AppReviews/> */}
       {/* <AppAccordion/> */}
       {/* <AppMenu/> */}
-      <AppTabs/>
+      {/* <AppTabs/> */}
+      <AppSlider/>
     </div>
   );
 }
