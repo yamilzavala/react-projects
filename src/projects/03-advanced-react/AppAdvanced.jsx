@@ -50,7 +50,7 @@ function AppAdvanced() {
       {/* <UserChallengeForms/> */}
       {/* <MultipleInputs/> */}
       {/* <OtherInputs/> */}
-      <UncontrolledInputs/>
+      {/* <UncontrolledInputs/> */}
 
     </>
   );
