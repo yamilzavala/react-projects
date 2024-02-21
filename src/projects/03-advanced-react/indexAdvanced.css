@@ -347,3 +347,12 @@ ul {
   align-items: center;
   justify-content: center;
 }
+
+.user-container-center {
+  display: flex;
+}
+
+.btn .btn-remove {
+  height: 50px;
+  width: 100px;
+}

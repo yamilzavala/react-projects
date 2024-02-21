@@ -13,6 +13,12 @@ import ShortCircuitOverview from './tutorial/03-conditional-rendering/starter/04
 import ShortCircuitExamples from './tutorial/03-conditional-rendering/starter/05-short-circuit-examples';
 import ToggleChallenge from './tutorial/03-conditional-rendering/starter/06-toggle-challenge';
 import UserChallenge from './tutorial/03-conditional-rendering/starter/07-user-challenge';
+import ControlledInputs from './tutorial/06-forms/starter/01-controlled-inputs';
+import UserChallengeForms from './tutorial/06-forms/starter/02-user-challenge-forms';
+import MultipleInputs from './tutorial/06-forms/starter/03-multiple-inputs';
+import OtherInputs from './tutorial/06-forms/starter/04-other-inputs';
+import UncontrolledInputs from './tutorial/06-forms/starter/05-form-data';
+
 
 function AppAdvanced() {
   return (
@@ -38,6 +44,13 @@ function AppAdvanced() {
       {/* <ShortCircuitExamples/> */}
       {/* <ToggleChallenge/> */}
       {/* <UserChallenge/> */}
+
+      {/* forms */}
+      {/* <ControlledInputs/> */}
+      {/* <UserChallengeForms/> */}
+      {/* <MultipleInputs/> */}
+      {/* <OtherInputs/> */}
+      <UncontrolledInputs/>
 
     </>
   );
