@@ -10,6 +10,7 @@ import AppTabs from "./projects/04-fundamental-projects/06-tabs/starter/AppTabs"
 import AppSlider from "./projects/04-fundamental-projects/07-slider/starter/AppSlider";
 import AppLoremIpsum from "./projects/04-fundamental-projects/08-lorem-ipsum/starter/AppLoremIpsum";
 import AppColorGenerator from "./projects/04-fundamental-projects/09-color-generator/starter/AppColorGenerator";
+import AppGrocery from './projects/04-fundamental-projects/10-grocery-bud/starter/AppGrocery';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <AppTabs/> */}
       {/* <AppSlider/> */}
       {/* <AppLoremIpsum/> */}
-      <AppColorGenerator/>
+      {/* <AppColorGenerator/> */}
+      <AppGrocery/>
     </div>
   );
 }
