@@ -11,6 +11,7 @@ import AppSlider from "./projects/04-fundamental-projects/07-slider/starter/AppS
 import AppLoremIpsum from "./projects/04-fundamental-projects/08-lorem-ipsum/starter/AppLoremIpsum";
 import AppColorGenerator from "./projects/04-fundamental-projects/09-color-generator/starter/AppColorGenerator";
 import AppGrocery from './projects/04-fundamental-projects/10-grocery-bud/starter/AppGrocery';
+import AppNavBar from './projects/04-fundamental-projects/11-navbar/starter/AppNavBar';
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <AppSlider/> */}
       {/* <AppLoremIpsum/> */}
       {/* <AppColorGenerator/> */}
-      <AppGrocery/>
+      {/* <AppGrocery/> */}
+      <AppNavBar/>
     </div>
   );
 }
