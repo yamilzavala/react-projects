@@ -12,6 +12,7 @@ import AppLoremIpsum from "./projects/04-fundamental-projects/08-lorem-ipsum/sta
 import AppColorGenerator from "./projects/04-fundamental-projects/09-color-generator/starter/AppColorGenerator";
 import AppGrocery from './projects/04-fundamental-projects/10-grocery-bud/starter/AppGrocery';
 import AppNavBar from './projects/04-fundamental-projects/11-navbar/starter/AppNavBar';
+import AppSideBar from './projects/04-fundamental-projects/12-sidebar/starter/AppSideBar';
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
       {/* <AppLoremIpsum/> */}
       {/* <AppColorGenerator/> */}
       {/* <AppGrocery/> */}
-      <AppNavBar/>
+      {/* <AppNavBar/> */}
+      <AppSideBar/>
     </div>
   );
 }

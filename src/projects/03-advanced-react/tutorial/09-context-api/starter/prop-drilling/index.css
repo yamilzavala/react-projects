@@ -1,0 +1,17 @@
+.nav-container {
+   display: flex;
+   align-items: center;
+   max-width: 90vw;
+   margin: 0 auto; 
+   padding: 1rem;
+}
+.navbar-links {
+    display: flex;    
+}
+.links {
+    display: flex;
+    margin-right: .5rem;
+}
+.user-container {
+    display: flex;
+}

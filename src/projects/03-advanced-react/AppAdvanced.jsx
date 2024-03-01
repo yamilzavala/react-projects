@@ -19,6 +19,11 @@ import MultipleInputs from './tutorial/06-forms/starter/03-multiple-inputs';
 import OtherInputs from './tutorial/06-forms/starter/04-other-inputs';
 import UncontrolledInputs from './tutorial/06-forms/starter/05-form-data';
 import UseRefBasics from './tutorial/07-useRef/starter/01-useRef-basics';
+import ToggleExample from './tutorial/08-custom-hooks/starter/01-toggle';
+import FetchDataCustomHooks from './tutorial/08-custom-hooks/starter/02-fetch-data';
+import NavbarContextApi from './tutorial/09-context-api/starter/context/Navbar';
+import NavbarPropDrilling from './tutorial/09-context-api/starter/prop-drilling/Navbar';
+
 
 
 function AppAdvanced() {
@@ -54,7 +59,17 @@ function AppAdvanced() {
       {/* <UncontrolledInputs/> */}
 
       {/* useRef */}
-      <UseRefBasics/>
+      {/* <UseRefBasics/> */}
+
+      {/*  custom hooks*/}
+      {/* <ToggleExample/> */}
+      {/* <FetchDataCustomHooks/> */}
+
+      {/* Props drilling */}
+      {/* <NavbarPropDrilling/> */}
+
+      {/* context */}
+      {/* <NavbarContextApi/> */}
 
     </>
   );
