@@ -13,6 +13,7 @@ import AppColorGenerator from "./projects/04-fundamental-projects/09-color-gener
 import AppGrocery from './projects/04-fundamental-projects/10-grocery-bud/starter/AppGrocery';
 import AppNavBar from './projects/04-fundamental-projects/11-navbar/starter/AppNavBar';
 import AppSideBar from './projects/04-fundamental-projects/12-sidebar/starter/AppSideBar';
+import AppStrapiSubMenu from './projects/04-fundamental-projects/13-strapi-submenus/starter/AppStrapiSubMenu';
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
       {/* <AppColorGenerator/> */}
       {/* <AppGrocery/> */}
       {/* <AppNavBar/> */}
-      <AppSideBar/>
+      {/* <AppSideBar/> */}
+      <AppStrapiSubMenu/>
     </div>
   );
 }
