@@ -23,6 +23,7 @@ import ToggleExample from './tutorial/08-custom-hooks/starter/01-toggle';
 import FetchDataCustomHooks from './tutorial/08-custom-hooks/starter/02-fetch-data';
 import NavbarContextApi from './tutorial/09-context-api/starter/context/Navbar';
 import NavbarPropDrilling from './tutorial/09-context-api/starter/prop-drilling/Navbar';
+import ReducerBasics from './tutorial/10-useReducer/starter/01-useReducer';
 
 
 
@@ -70,6 +71,9 @@ function AppAdvanced() {
 
       {/* context */}
       {/* <NavbarContextApi/> */}
+
+      {/* useReducer */}
+      <ReducerBasics/>
 
     </>
   );

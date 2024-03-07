@@ -1,0 +1,17 @@
+* {
+    background-color: #faf7f7;
+}
+
+.container-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    margin: 1rem 0;
+}
+
+.btn-remove {
+    margin-top: .5rem;
+}

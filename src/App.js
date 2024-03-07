@@ -14,6 +14,9 @@ import AppGrocery from './projects/04-fundamental-projects/10-grocery-bud/starte
 import AppNavBar from './projects/04-fundamental-projects/11-navbar/starter/AppNavBar';
 import AppSideBar from './projects/04-fundamental-projects/12-sidebar/starter/AppSideBar';
 import AppStrapiSubMenu from './projects/04-fundamental-projects/13-strapi-submenus/starter/AppStrapiSubMenu';
+import AppCartWithArray from './projects/04-fundamental-projects/14-cart/starter-with-array/AppCartWithArray';
+import AppCartWithMap from './projects/04-fundamental-projects/14-cart/starter-with-map/AppCartWithMap';
+
 
 function App() {
   return (
@@ -35,7 +38,10 @@ function App() {
       {/* <AppGrocery/> */}
       {/* <AppNavBar/> */}
       {/* <AppSideBar/> */}
-      <AppStrapiSubMenu/>
+      {/* <AppStrapiSubMenu/> */}
+      {/* <AppCartWithArray/> */}
+      <AppCartWithMap/>
+
     </div>
   );
 }
