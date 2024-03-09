@@ -1,23 +1,22 @@
-import {useState, useEffect} from 'react';
+import {useState, useEffect, useCallback} from 'react';
 const url = 'https://api.github.com/users';
 
 const FetchData = () => {
   const [users, setUsers] = useState([])
 
-  useEffect(() => {
-    const fetchUsers = async () => {
-      try {
-        const response = await fetch(url);
-        const data = await response.json();
-        console.log(data)
-        setUsers(data)        
-      } catch (error) {
-        console.error(error.message)
-      }
+  const fetchUsers = useCallback(async () => {
+    try {
+      const response = await fetch(url);
+      const data = await response.json();
+      console.log(data)
+      setUsers(data)        
+    } catch (error) {
+      console.error(error.message)
     }
+  },[]) 
 
-    fetchUsers()
-  }, [])
+  useEffect(() => { fetchUsers()
+  }, [fetchUsers])
 
   const usersRendered = users.map((user, idx) => (
     <li key={user.id}>

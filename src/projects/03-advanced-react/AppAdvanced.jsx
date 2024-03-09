@@ -24,6 +24,11 @@ import FetchDataCustomHooks from './tutorial/08-custom-hooks/starter/02-fetch-da
 import NavbarContextApi from './tutorial/09-context-api/starter/context/Navbar';
 import NavbarPropDrilling from './tutorial/09-context-api/starter/prop-drilling/Navbar';
 import ReducerBasics from './tutorial/10-useReducer/starter/01-useReducer';
+import LowerState from './tutorial/11-performance/starter/01-lower-state';
+import LowerStateChallenge from './tutorial/11-performance/starter/02-lower-state-challenge';
+import LowerStateMemo from './tutorial/11-performance/starter/03-hooks';
+import LatestReact from './tutorial/11-performance/starter/04-react-18';
+import SlowComponent from './tutorial/11-performance/starter/04-react-18/SlowComponent';
 
 
 
@@ -73,8 +78,15 @@ function AppAdvanced() {
       {/* <NavbarContextApi/> */}
 
       {/* useReducer */}
-      <ReducerBasics/>
+      {/* <ReducerBasics/> */}
 
+      {/* Performance */}
+      {/* <LowerState/> */}
+      {/* <LowerStateChallenge/> */}
+      {/* <LowerStateMemo/> */}
+      {/* <LatestReact/> */}
+
+   
     </>
   );
 }

@@ -16,13 +16,14 @@ import AppSideBar from './projects/04-fundamental-projects/12-sidebar/starter/Ap
 import AppStrapiSubMenu from './projects/04-fundamental-projects/13-strapi-submenus/starter/AppStrapiSubMenu';
 import AppCartWithArray from './projects/04-fundamental-projects/14-cart/starter-with-array/AppCartWithArray';
 import AppCartWithMap from './projects/04-fundamental-projects/14-cart/starter-with-map/AppCartWithMap';
+import AppAxios from './projects/05-axios-tutorial/AppAxios';
 
 
 function App() {
   return (
     <div>
       {/* theory */}
-      {/* <AppAdvanced/> */}
+      <AppAdvanced/>
 
       {/* projects */}
       {/* <AppBackroads/> */}
@@ -40,7 +41,10 @@ function App() {
       {/* <AppSideBar/> */}
       {/* <AppStrapiSubMenu/> */}
       {/* <AppCartWithArray/> */}
-      <AppCartWithMap/>
+      {/* <AppCartWithMap/> */}
+
+      {/* Axios */}
+      <AppAxios/>
 
     </div>
   );
