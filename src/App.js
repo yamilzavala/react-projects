@@ -17,6 +17,7 @@ import AppStrapiSubMenu from './projects/04-fundamental-projects/13-strapi-subme
 import AppCartWithArray from './projects/04-fundamental-projects/14-cart/starter-with-array/AppCartWithArray';
 import AppCartWithMap from './projects/04-fundamental-projects/14-cart/starter-with-map/AppCartWithMap';
 import AppAxios from './projects/05-axios-tutorial/AppAxios';
+import AppReactQuery from './projects/06-react-query/starter/AppReactQuery';
 
 
 function App() {
@@ -44,7 +45,10 @@ function App() {
       {/* <AppCartWithMap/> */}
 
       {/* Axios */}
-      <AppAxios/>
+      {/* <AppAxios/> */}
+
+      {/* ReactQuery */}
+      <AppReactQuery/>
 
     </div>
   );
