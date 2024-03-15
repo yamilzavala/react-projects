@@ -18,6 +18,7 @@ import AppCartWithArray from './projects/04-fundamental-projects/14-cart/starter
 import AppCartWithMap from './projects/04-fundamental-projects/14-cart/starter-with-map/AppCartWithMap';
 import AppAxios from './projects/05-axios-tutorial/AppAxios';
 import AppReactQuery from './projects/06-react-query/starter/AppReactQuery';
+import AppUnplashImages from './projects/07-unsplash-images/starter/AppUnplashImages';
 
 
 function App() {
@@ -48,7 +49,8 @@ function App() {
       {/* <AppAxios/> */}
 
       {/* ReactQuery */}
-      <AppReactQuery/>
+      {/* <AppReactQuery/> */}
+      <AppUnplashImages/>
 
     </div>
   );
