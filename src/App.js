@@ -19,13 +19,14 @@ import AppCartWithMap from './projects/04-fundamental-projects/14-cart/starter-w
 import AppAxios from './projects/05-axios-tutorial/AppAxios';
 import AppReactQuery from './projects/06-react-query/starter/AppReactQuery';
 import AppUnplashImages from './projects/07-unsplash-images/starter/AppUnplashImages';
+import AppReactQueryReactRouter from './projects/09-mixmaster/starter/AppReactQueryReactRouter';
 
 
 function App() {
   return (
     <div>
       {/* theory */}
-      <AppAdvanced/>
+      {/* <AppAdvanced/> */}
 
       {/* projects */}
       {/* <AppBackroads/> */}
@@ -50,7 +51,10 @@ function App() {
 
       {/* ReactQuery */}
       {/* <AppReactQuery/> */}
-      <AppUnplashImages/>
+      {/* <AppUnplashImages/> */}
+
+      {/* ReactQuery - ReactRouter */}
+      <AppReactQueryReactRouter/>
 
     </div>
   );
