@@ -9,12 +9,16 @@ const Wrapper = styled.article`
   :hover {
     box-shadow: var(--shadow-4);
   }
+  .img-container-cocktal {
+
+  }
+
   img {
     height: 15rem;
     border-top-left-radius: var(--borderRadius);
     border-top-right-radius: var(--borderRadius);
   }
-  .footer {
+  .footer-cocktail {
     padding: 1.5rem;
     h4,
     h5 {

@@ -1,14 +1,13 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import { CocktailList } from '../components';
 
 const Landing = () => {
     const {drinks, searchTerm} = useLoaderData();
-    console.log('drinks: ', drinks);
-    console.log('searchTerm: ', searchTerm);
 
     return (
         <div>
-            <h3>Landing</h3>
+            <CocktailList drinks={drinks}/>
         </div>
     );
 };
