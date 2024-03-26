@@ -5,16 +5,16 @@ import { useOutletContext } from 'react-router-dom';
 
 const CocktailList = ({drinks}) => {
     const data = useOutletContext()
-    console.log('Outlet Context', data)
 
-    console.log(drinks)
-
-    const formttedDrinks = drinks.map(drink => {
-        const {idDrink, strDrink, strDrinkThumb, strAlcoholic, strGlass} = drink;
-        return {
-            id: idDrink, name: strDrink, image: strDrinkThumb, info: strAlcoholic, glass: strGlass
-        }
-    })
+    let formttedDrinks = [];
+    if(drinks) {
+        formttedDrinks = drinks.map(drink => {
+            const {idDrink, strDrink, strDrinkThumb, strAlcoholic, strGlass} = drink;
+            return {
+                id: idDrink, name: strDrink, image: strDrinkThumb, info: strAlcoholic, glass: strGlass
+            }
+        })
+    }
 
     return (
        <Wrapper>

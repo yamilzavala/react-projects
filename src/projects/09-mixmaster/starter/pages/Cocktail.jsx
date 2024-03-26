@@ -1,10 +1,13 @@
 import React from 'react';
 import { useLoaderData, Link, Navigate } from 'react-router-dom';
 import Wrapper from '../assets/wrappers/CocktailPage';
+import { singleCocktailQuery } from '../queries/singleCocktailQuery';
+import { useQuery } from '@tanstack/react-query';
 
 
 const Kocktail = () => {
-    const {data, id} = useLoaderData();
+    const {id} = useLoaderData();
+    const {data} = useQuery(singleCocktailQuery(id))
     if(!data) return <Navigate to='/'/>
 
     const singleDrink = data?.drinks[0];
