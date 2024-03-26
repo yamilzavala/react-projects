@@ -2,7 +2,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { About, Error, HomeLayout, Cocktail, Landing, Newsletter, SinglePageError } from "../pages";
 import { landingLoader, getCocktailDetail } from "./loaders";
 // import { loaderGetDrink as landingLoader } from './loaders/landingLoader'
-import { action as newsletterAction } from "../pages/Newsletter";
+import { action as newsletterAction } from "../router/actions/newsletterAction";
 import { queryClient } from "../queries/WrapperReactQuery";
 
 const router = createBrowserRouter([
