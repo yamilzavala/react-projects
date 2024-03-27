@@ -20,6 +20,7 @@ import AppAxios from './projects/05-axios-tutorial/AppAxios';
 import AppReactQuery from './projects/06-react-query/starter/AppReactQuery';
 import AppUnplashImages from './projects/07-unsplash-images/starter/AppUnplashImages';
 import AppReactQueryReactRouter from './projects/09-mixmaster/starter/AppReactQueryReactRouter';
+import AppReduxToolkit from './projects/11-redux-toolkit-tutorial/starter/AppReduxToolkit';
 
 
 function App() {
@@ -54,7 +55,10 @@ function App() {
       {/* <AppUnplashImages/> */}
 
       {/* ReactQuery - ReactRouter */}
-      <AppReactQueryReactRouter/>
+      {/* <AppReactQueryReactRouter/> */}
+
+      {/* Redux tolkit */}
+      <AppReduxToolkit/>
 
     </div>
   );

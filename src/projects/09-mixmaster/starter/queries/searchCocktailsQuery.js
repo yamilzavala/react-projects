@@ -8,7 +8,7 @@ export const searchCocktailsQuery = (searchTerm) => {
         queryKey: ['search', searchTerm || 'all'],
         queryFn: async () => {
             const response = await axios.get(`${cocktailSearchUrl}${searchTermValue}`);
-            console.log('response reactQuery: ', response)
+            //console.log('response reactQuery: ', response)
             return response.data.drinks
         }
     }
