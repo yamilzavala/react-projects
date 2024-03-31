@@ -21,6 +21,7 @@ import AppReactQuery from './projects/06-react-query/starter/AppReactQuery';
 import AppUnplashImages from './projects/07-unsplash-images/starter/AppUnplashImages';
 import AppReactQueryReactRouter from './projects/09-mixmaster/starter/AppReactQueryReactRouter';
 import AppReduxToolkit from './projects/11-redux-toolkit-tutorial/starter/AppReduxToolkit';
+import AppConfyStore from './projects/12-comfy-store/AppConfyStore';
 
 
 function App() {
@@ -58,8 +59,11 @@ function App() {
       {/* <AppReactQueryReactRouter/> */}
 
       {/* Redux tolkit */}
-      <AppReduxToolkit/>
+      {/* <AppReduxToolkit/> */}
 
+      {/* React router - rtk - axios - React query */}
+      <AppConfyStore/>
+      
     </div>
   );
 }
